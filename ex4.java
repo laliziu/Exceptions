@@ -9,7 +9,7 @@ public class ex4 {
             System.out.println("Введите строку: ");
             String str = scanner.nextLine();
             if(str.isEmpty()){
-                throw new Exception("Вы ввели пустую строку");
+                throw new Exception("Вы ввели пустую строку!");
             }
         } catch (Exception e) {
             throw new RuntimeException(e);

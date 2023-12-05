@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Float {
     public static void main(String[] args) {
     float num = CheckFloat();
-        System.out.println("Введенное число " + num);
+        System.out.println(" Введенное число " + num);
     }
 
     private static float CheckFloat() {

@@ -10,7 +10,7 @@ public class ex3 {
             int[] abc = { 1, 2 };
             abc[3] = 9;
         } catch (IndexOutOfBoundsException ex) {
-            System.out.println("Массив выходит за пределы своего размера!");
+            System.out.println("Массив выходит за пределы своего размера !");
         } catch (NullPointerException ex) {
             System.out.println("Указатель не может указывать на null!");
         } catch (Throwable ex) {

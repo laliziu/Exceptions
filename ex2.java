@@ -16,7 +16,7 @@ public class ex2 {
         }
         try {
             double result = array[3] / d;
-            System.out.println("result= " + result);
+            System.out.println("result = " + result);
         } catch (ArithmeticException e) {
             System.out.println("Catching exception: " + e);
         }
